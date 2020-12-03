@@ -1,0 +1,23 @@
+    public static void main(String[] args) {
+        
+        String my_name;
+	    Scanner  s = new  Scanner(System.in);
+	    my_name = s.nextLine();
+        System.out.println(my_name);
+        
+	    int my_savings = 0;
+        System.out.println("my_savings so far " + my_savings);
+        my_savings += 10000;
+        System.out.println("my_savings so far "+ my_savings);
+        my_savings *= 2;
+        System.out.println("my_savings so far "+ my_savings);
+        my_savings += 30000;
+        System.out.println("my_savings so far "+ my_savings);
+        my_savings += 1;
+        System.out.println("my_savings so far "+ my_savings);
+        my_savings /= 2;
+        System.out.println("my_savings so far "+ my_savings);
+        System.out.println(my_name + " " + my_savings );
+
+    }
+}
